@@ -1,0 +1,65 @@
+nav {
+	width: 100%;
+}
+section {
+	background: url(../image/photo.png) no-repeat top center / cover;
+	height: 1000px;
+}
+
+footer {
+	background-color: #13161E;
+	height: 200px;
+	text-align: center;
+}
+
+p {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.carousel-item {
+	text-align: center;
+	margin-top: 45%;
+}
+
+.text-slider {
+	margin-bottom: 50%;
+	font-weight: bold;
+	font-size: 170%;
+}
+
+.text-footer {
+	padding-top: 8%;
+}
+
+.title {
+	text-align: center;
+}
+
+h5, .first-block-text, .second-block-text, .third-block-text, .fourth-block-text {
+	color: #000;
+}
+
+.fa {
+	font-size: 40px;
+	margin-right: 15px;
+}
+
+h6 {
+	text-align: center;
+}
+
+.anchor, .archive {
+	margin-top: 15px;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 530px) {
+	.text-slider {
+		font-size: 100%;
+	}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 600px) {
+	section {
+		height: 700px;
+	}
+}
