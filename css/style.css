@@ -2,8 +2,10 @@ nav {
 	width: 100%;
 }
 section {
-	background: url(../image/photo.png) no-repeat top center / cover;
+	background: url(../image/mountain_for_site2.jpg) no-repeat top center / cover;
 	height: 1000px;
+	margin-top: -5px;
+	margin-right: -25px;
 }
 
 footer {
@@ -26,6 +28,7 @@ p {
 	margin-bottom: 50%;
 	font-weight: bold;
 	font-size: 170%;
+	color: #0B0B0B;
 }
 
 .text-footer {
